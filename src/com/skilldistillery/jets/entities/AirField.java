@@ -40,7 +40,7 @@ public class AirField {
 							Integer.parseInt(pieces[3]), Long.parseLong(pieces[4]));
 				}
 				bunchOfJets.add(jet);
-				System.out.println(jet);
+//				System.out.println(jet);
 			}
 			br.close();
 		} catch (FileNotFoundException e) {
